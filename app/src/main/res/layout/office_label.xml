@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".office_select">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_margin="20dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="20dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/office1label"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.65"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_marginBottom="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/label1">
+                    <ImageView
+                        android:id="@+id/office1"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/a1"
+                        android:adjustViewBounds="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:padding="8dp"
+                        android:scaleType="centerInside"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/office2label"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.65"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/label2">
+                    <ImageView
+                        android:id="@+id/office2"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/a2"
+                        android:adjustViewBounds="true"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:scaleType="centerInside"/>
+
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/office3label"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.65"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@color/label3">
+                    <ImageView
+                        android:id="@+id/office3"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/a3"
+                        android:adjustViewBounds="true"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:scaleType="centerInside"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/office4label"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.65"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@color/label4">
+                    <ImageView
+                        android:id="@+id/office4"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/a4"
+                        android:adjustViewBounds="true"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:scaleType="centerInside"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/office5label"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.65"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@color/label5">
+                    <ImageView
+                        android:id="@+id/office5"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/a5"
+                        android:adjustViewBounds="true"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:scaleType="centerInside"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/office6label"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.65"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:background="@color/label6">
+                    <ImageView
+                        android:id="@+id/office6"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/a6"
+                        android:adjustViewBounds="true"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:scaleType="centerInside"/>
+
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="office">office</string>
+    <string name="employee_office_name">Employee office name</string>
+    <string name="phone">phone</string>
+    <string name="employee_phone_number">Employee phone number</string>
+    <string name="employee_nickname">Employee nickname</string>
+    <string name="fullname">fullname</string>
+    <string name="employee_fullname">Employee fullname</string>
+    <string name="img">img</string>
+</resources>

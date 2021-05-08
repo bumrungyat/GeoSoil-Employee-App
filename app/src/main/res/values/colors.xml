@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#F15050</color>
+    <color name="red_dark">#D43C3C</color>
+    <color name="yellow">#EED45A</color>
+    <color name="yellow_dark">#D4BB46</color>
+    <color name="lime">#BCE24A</color>
+    <color name="lime_dark">#9DBF35</color>
+    <color name="green">#48D268</color>
+    <color name="green_dark">#36B957</color>
+    <color name="blue">#48DFE1</color>
+    <color name="blue_dark">#37C4C6</color>
+    <color name="darkblue">#5A9CEE</color>
+    <color name="darkblue_dark">#417ECA</color>
+    <color name="darkviolet">#7E50F1</color>
+    <color name="darkviolet_dark">#683DD4</color>
+    <color name="violet">#D65AEE</color>
+    <color name="violet_dark">#B33EC9</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="label1">#B7E0EA</color>
+    <color name="label2">#A5DFED</color>
+    <color name="label3">#8DD9EC</color>
+    <color name="label4">#79D6ED</color>
+    <color name="label5">#68D3ED</color>
+    <color name="label6">#59D2EF</color>
+
+    <color name="material_black">#191919</color>
+    <color name="material_lightblack">#424141</color>
+    <color name="lightgrey">#D6D4D4</color>
+
+</resources>
