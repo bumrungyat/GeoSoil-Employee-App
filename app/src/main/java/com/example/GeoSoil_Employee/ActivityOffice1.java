@@ -1,8 +1,12 @@
 package com.example.GeoSoil_Employee;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.telecom.Call;
 import android.view.View;
 import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -28,12 +32,11 @@ import jxl.read.biff.BiffException;
 public class ActivityOffice1 extends AppCompatActivity {
     Workbook workbook;
     AsyncHttpClient asyncHttpClient;
-    List<String> fullnames,nicknames,phonenumbers,officelevels,images;
+    List<String> fullnames, nicknames, phonenumbers, officelevels, images;
     RecyclerView recyclerView;
     Adapter adapter;
     ProgressBar progressBar;
     TextView wait;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +47,7 @@ public class ActivityOffice1 extends AppCompatActivity {
         progressBar = findViewById(R.id.progressBar);
         wait = findViewById(R.id.wait);
 
-        String url = "https://github.com/bumrungyat/GeoSoil_Employee/blob/main/Geotechsurvey_Employee.xls?raw=true";
+        String url = "https://github.com/bumrungyat/GeoSoil_Employee/blob/main/Center_Employee.xls?raw=true";
         //String apiURL = "https://bikashthapa01.github.io/excel-reader-android-app/";
         fullnames = new ArrayList<>();
         nicknames = new ArrayList<>();
@@ -78,7 +81,7 @@ public class ActivityOffice1 extends AppCompatActivity {
             public void onSuccess(int statusCode, Header[] headers, File file) {
                 WorkbookSettings ws = new WorkbookSettings();
                 ws.setGCDisabled(true);
-                if(file != null){
+                if (file != null) {
                     //text.setText("Success, DO something with the file.");
                     wait.setVisibility(View.GONE);
                     progressBar.setVisibility(View.GONE);
@@ -88,7 +91,7 @@ public class ActivityOffice1 extends AppCompatActivity {
                         Sheet sheet = workbook.getSheet(0);
                         //Cell[] row = sheet.getRow(1);
                         //text.setText(row[0].getContents());
-                        for(int i = 0;i< sheet.getRows();i++){
+                        for (int i = 0; i < sheet.getRows(); i++) {
                             Cell[] row = sheet.getRow(i);
                             fullnames.add(row[0].getContents());
                             nicknames.add(row[1].getContents());
@@ -112,7 +115,8 @@ public class ActivityOffice1 extends AppCompatActivity {
 
     private void showData() {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        adapter = new Adapter(this,fullnames,nicknames,phonenumbers,officelevels,images);
+        adapter = new Adapter(this, fullnames, nicknames, phonenumbers, officelevels, images);
         recyclerView.setAdapter(adapter);
+
     }
 }

@@ -38,13 +38,13 @@ public class ActivityOffice6 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_office5);
+        setContentView(R.layout.activity_office6);
 
         recyclerView = findViewById(R.id.listOfData);
         progressBar = findViewById(R.id.progressBar);
         wait = findViewById(R.id.wait);
 
-        String url = "https://github.com/bumrungyat/GeoSoil_Employee/blob/main/Geotechsurvey_Employee.xls?raw=true";
+        String url = "https://github.com/bumrungyat/GeoSoil_Employee/blob/main/Driver_Employee.xls?raw=true";
         //String apiURL = "https://bikashthapa01.github.io/excel-reader-android-app/";
         fullnames = new ArrayList<>();
         nicknames = new ArrayList<>();
