@@ -34,7 +34,6 @@ public class ActivityOffice4 extends AppCompatActivity {
     ProgressBar progressBar;
     TextView wait;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

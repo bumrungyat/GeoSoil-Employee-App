@@ -118,5 +118,6 @@ public class ActivityOffice1 extends AppCompatActivity {
         adapter = new Adapter(this, fullnames, nicknames, phonenumbers, officelevels, images);
         recyclerView.setAdapter(adapter);
 
+
     }
 }

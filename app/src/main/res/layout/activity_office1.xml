@@ -7,7 +7,6 @@
     android:background="@color/lightgrey"
     tools:context=".ActivityOffice1">
 
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/listOfData"
         android:layout_width="0dp"

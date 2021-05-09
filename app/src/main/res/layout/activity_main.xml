@@ -34,7 +34,7 @@
                     android:foreground="?attr/selectableItemBackground"
                     android:layout_marginBottom="2dp"
                     android:layout_height="match_parent"
-                    android:background="@color/label1">
+                    android:background="@drawable/gradiet">
                     <ImageView
                         android:id="@+id/office1"
                         android:layout_width="60dp"
@@ -56,7 +56,7 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginBottom="2dp"
                     android:layout_height="match_parent"
-                    android:background="@color/label2">
+                    android:background="@drawable/gradiet">
                     <ImageView
                         android:id="@+id/office2"
                         android:layout_width="60dp"
@@ -81,7 +81,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="2dp"
                     android:layout_marginBottom="2dp"
-                    android:background="@color/label3">
+                    android:background="@drawable/gradiet">
                     <ImageView
                         android:id="@+id/office3"
                         android:layout_width="60dp"
@@ -103,7 +103,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="2dp"
                     android:layout_marginBottom="2dp"
-                    android:background="@color/label4">
+                    android:background="@drawable/gradiet">
                     <ImageView
                         android:id="@+id/office4"
                         android:layout_width="60dp"
@@ -127,7 +127,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="2dp"
                     android:layout_marginBottom="2dp"
-                    android:background="@color/label5">
+                    android:background="@drawable/gradiet">
                     <ImageView
                         android:id="@+id/office5"
                         android:layout_width="60dp"
@@ -148,7 +148,7 @@
                     android:foreground="?attr/selectableItemBackground"
                     android:layout_height="match_parent"
                     android:layout_marginTop="2dp"
-                    android:background="@color/label6">
+                    android:background="@drawable/gradiet">
                     <ImageView
                         android:id="@+id/office6"
                         android:layout_width="60dp"
