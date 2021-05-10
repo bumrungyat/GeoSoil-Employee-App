@@ -35,16 +35,16 @@
                     android:layout_marginBottom="2dp"
                     android:layout_height="match_parent"
                     android:background="@drawable/gradiet">
+
                     <ImageView
                         android:id="@+id/office1"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/a1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
                         android:adjustViewBounds="true"
-                        android:layout_centerHorizontal="true"
-                        android:layout_centerVertical="true"
                         android:padding="8dp"
-                        android:scaleType="centerInside"/>
+                        android:scaleType="centerInside"
+                        android:src="@drawable/office1" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -57,16 +57,16 @@
                     android:layout_marginBottom="2dp"
                     android:layout_height="match_parent"
                     android:background="@drawable/gradiet">
+
                     <ImageView
                         android:id="@+id/office2"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/a2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
                         android:adjustViewBounds="true"
-                        android:layout_centerVertical="true"
-                        android:layout_centerHorizontal="true"
                         android:padding="8dp"
-                        android:scaleType="centerInside"/>
+                        android:scaleType="centerInside"
+                        android:src="@drawable/office2" />
 
 
 
@@ -82,16 +82,16 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginBottom="2dp"
                     android:background="@drawable/gradiet">
+
                     <ImageView
                         android:id="@+id/office3"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/a3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
                         android:adjustViewBounds="true"
-                        android:layout_centerVertical="true"
-                        android:layout_centerHorizontal="true"
                         android:padding="8dp"
-                        android:scaleType="centerInside"/>
+                        android:scaleType="centerInside"
+                        android:src="@drawable/office3" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -104,16 +104,16 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginBottom="2dp"
                     android:background="@drawable/gradiet">
+
                     <ImageView
                         android:id="@+id/office4"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/a4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
                         android:adjustViewBounds="true"
-                        android:layout_centerVertical="true"
-                        android:layout_centerHorizontal="true"
                         android:padding="8dp"
-                        android:scaleType="centerInside"/>
+                        android:scaleType="centerInside"
+                        android:src="@drawable/office4" />
 
 
                 </RelativeLayout>
@@ -128,16 +128,16 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginBottom="2dp"
                     android:background="@drawable/gradiet">
+
                     <ImageView
                         android:id="@+id/office5"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/a5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
                         android:adjustViewBounds="true"
-                        android:layout_centerVertical="true"
-                        android:layout_centerHorizontal="true"
                         android:padding="8dp"
-                        android:scaleType="centerInside"/>
+                        android:scaleType="centerInside"
+                        android:src="@drawable/office5" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -149,16 +149,16 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="2dp"
                     android:background="@drawable/gradiet">
+
                     <ImageView
                         android:id="@+id/office6"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/a6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
                         android:adjustViewBounds="true"
-                        android:layout_centerVertical="true"
-                        android:layout_centerHorizontal="true"
                         android:padding="8dp"
-                        android:scaleType="centerInside"/>
+                        android:scaleType="centerInside"
+                        android:src="@drawable/office6" />
 
 
 
